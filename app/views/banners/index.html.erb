@@ -1,0 +1,19 @@
+<table>
+	<thead>
+	    <tr>
+	      <th>Size</th>
+	      <th>Amount</th>
+	      <th>Actions</th>
+	    </tr>
+	  </thead>
+
+	<tbody>
+		<% @banners.each do |banner| %>
+			<tr>
+				<td><%= banner.size %></td>
+				<td><%= banner.amount %></td>
+				<td></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
